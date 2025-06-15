@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.5 on win32)" generated="2025-06-15T14:42:11.139923" rpa="false" schemaversion="5">
+<suite id="s1" name="criarConta" source="C:\Users\Miguel\Documents\Testes_Robot\tests\criarConta.robot">
+<test id="s1-t1" name="Criar Conta no Taskflow" line="6">
+<kw name="abrir a página do Taskflow">
+<kw name="Set Selenium Speed" owner="SeleniumLibrary">
+<arg>3s</arg>
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<status status="PASS" start="2025-06-15T14:42:23.458900" elapsed="0.000441"/>
+</kw>
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-15T14:42:23.481135" level="INFO">Opening browser 'Firefox' to base url 'http://localhost:3000/register'.</msg>
+<arg>${URL_REGISTER}</arg>
+<arg>Firefox</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-15T14:42:23.480616" elapsed="113.267123"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-06-15T14:44:16.748201" elapsed="3.454330"/>
+</kw>
+<status status="PASS" start="2025-06-15T14:42:23.403139" elapsed="116.799755"/>
+</kw>
+<kw name="inserir um nome de usuario válido">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-15T14:44:20.206009" level="INFO">Typing text 'Testador' into text field 'id:nome'.</msg>
+<arg>id:nome</arg>
+<arg>${NOME_USUARIO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-15T14:44:20.204902" elapsed="17.779752"/>
+</kw>
+<status status="PASS" start="2025-06-15T14:44:20.204060" elapsed="17.780814"/>
+</kw>
+<kw name="inserir um email válido">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-15T14:44:37.986602" level="INFO">Typing text 'teste@exemplo.com' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>${EMAIL_USUARIO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-15T14:44:37.986197" elapsed="9.365897"/>
+</kw>
+<status status="PASS" start="2025-06-15T14:44:37.985538" elapsed="9.366826"/>
+</kw>
+<kw name="inserir uma senha válida">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-15T14:44:47.354127" level="INFO">Typing text '12345678' into text field 'id:senha'.</msg>
+<arg>id:senha</arg>
+<arg>${SENHA_USUARIO}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-15T14:44:47.353716" elapsed="9.452323"/>
+</kw>
+<status status="PASS" start="2025-06-15T14:44:47.352986" elapsed="9.453372"/>
+</kw>
+<kw name="cliclar no botão de Criar Conta">
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2025-06-15T14:44:56.808173" level="INFO">Clicking button 'xpath=//button[@type='submit']'.</msg>
+<arg>xpath=//button[@type='submit']</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-15T14:44:56.807668" elapsed="16.898587"/>
+</kw>
+<status status="PASS" start="2025-06-15T14:44:56.807139" elapsed="16.899314"/>
+</kw>
+<status status="PASS" start="2025-06-15T14:42:23.401687" elapsed="170.305234"/>
+</test>
+<status status="PASS" start="2025-06-15T14:42:11.187289" elapsed="182.521573"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="criarConta" id="s1" pass="1" fail="0" skip="0">criarConta</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

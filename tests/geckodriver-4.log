@@ -1,0 +1,18 @@
+1750009348179	geckodriver	INFO	Listening on 127.0.0.1:50237
+1750009353834	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "50238" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Miguel\\AppData\\Local\\Temp\\rust_mozprofileunLZFx"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1750009367393	Marionette	INFO	Marionette enabled
+1750009371534	Marionette	INFO	Listening on port 50245
+Read port: 50245
+WebDriver BiDi listening on ws://127.0.0.1:50238
+1750009373251	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: NewRenderer::Run is slow: 2051
+[GFX1-]: Calling WaitFlushedEvent::Run: is delayed: 3273
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://localhost:3000."
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
